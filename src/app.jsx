@@ -1,14 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import ListContainer from './containers/list.jsx';
 
-const Root = ({ store }) => (
-	<h1>
-		Hello World!!!
-	</h1>
+const Root = () => (
+	<ListContainer/>
 );
 
-Root.propTypes = {
-	store: PropTypes.object.isRequired
-};
+Root.propTypes = {};
 
 export default Root;
